@@ -1,0 +1,21 @@
+{
+  "name": "PetFinder",
+  "short_name": "PetF",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#17a2b8",
+  "background_color": "#fff",
+  "description": "A pet adoption app to browse pets near you.",
+  "icons": [
+    {
+      "src": "animal-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "animal-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
