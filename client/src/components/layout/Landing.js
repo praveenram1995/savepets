@@ -12,14 +12,13 @@ const Landing = ({ isAuthenticated }) => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Pet Finder</h1>
+          <h1 className='x-large'>SavePets</h1>
           <p className='lead'>
-            Search and adopt pets near you, help the animal rescue shelters near
-            your area
+            You can't change a dog's past, but you could rewrite his future." Adopting a dog not only saves a life, it just makes sense. Don't shop! Always adopt!
+
           </p>
           <p className='info'>
-            *Organizations/Rescue Shelters can add profiles for their animals by
-            signing up
+            Add/Adopt animals by signing up
           </p>
           <div className='buttons'>
             <Link to='/animals' className='btn btn-success'>
