@@ -26,10 +26,7 @@ const Dashboard = ({
         <Link to='/create-animal-profile' className='btn'>
           <i className='fas fa-plus-square text-primary'></i> Add a Pet Profile
         </Link>
-        <Link to='/edit-org-info' className='btn'>
-          <i className='fas fa-user-circle text-primary'></i> Edit Contact
-          Information
-        </Link>
+        
       </div>
       {animals.length > 0 ? (
         <Fragment>

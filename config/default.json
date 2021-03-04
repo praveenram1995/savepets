@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://savepets:wdgVWl8sEEudcxvJ@cluster0.djbhe.mongodb.net/test",
+  "jwtSecret": "mysecrettokenforpetfinder"
+}
