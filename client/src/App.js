@@ -21,6 +21,10 @@ import setAuthToken from './utils/setAuthToken';
 
 import './App.css';
 
+let defaultSrc = "default-src 'none'";
+let formAction = "form-action 'self'";
+const csp = [defaultSrc, formAction].join(";");
+
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
