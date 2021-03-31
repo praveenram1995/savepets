@@ -1,38 +1,35 @@
 {
-  "name": "petfinder",
+  "name": "Save Pets",
   "version": "1.0.0",
-  "description": "Rescue pet animals near you",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
-  "author": "Save pets",
-  "license": "MIT",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "config": "^3.3.1",
-    "express": "^4.17.1",
-    "express-validator": "^6.5.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.14",
-    "multer": "^1.4.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-redux": "^7.2.2"
-  },
-  "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "start": "node index.js",
+    "dev":"nodemon run dev"
   },
   "repository": {
-    "type": "git",
-    "url": ""
+    "type": "git"
   },
-  "bugs": {
-    "url": " "
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "hover.css": "^2.3.2",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.4",
+    "multer": "^1.4.2",
+    "sendgrid": "^5.2.3",
+    "tinify": "^1.6.0-beta.2",
+    "tinypng": "^0.1.1",
+    "web-push": "^3.3.5"
   },
-  "homepage": ""
+  "devDependencies": {}
 }
